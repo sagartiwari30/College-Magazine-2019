@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+COLLEGE MAGAZINE
+</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<header id="header">
+<!------------------navbar---------->
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+<img src="image/logo.png" class="logo">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto bg-info">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="services.html">Services <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+      </li>
+      
+    
+  </div>
+</nav>
+</header>
+
+
+ <!------------------contact form---------->
+<center>
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <h2 id="contact" class="text-center"> Contact Us</h2>
+                <hr class="mx-auto">
+                <form method="post" action="contact.php" class="text-light " style="border-style:solid;margin-bottom:30px">
+                    <h3 align="center" style="margin: 20px">Enter your Details</h3>
+                    <div class="form-row">
+                        <div class="col-6 mt-2 mb-2">
+                            <label for="exampleInputFirstname">First Name</label>
+                            <input type="text" class="form-control" name="user_fname" placeholder="Name" required>
+                        </div>
+                        <div class="col-6 mt-2 mb-2">
+                            <label for="exampleInputNumber">Last name</label>
+                            <input type="tel" class="form-control" name="user_lname" placeholder="Mobile no." required>
+                        </div>
+                        <div class="col-12 mt-2 mb-2">
+                            <label for="exampleInputEmail">Email</label>
+                            <input type="email" class="form-control" name="user_email" placeholder="Email" required>
+                        </div>
+                        <div class="col-12 mt-2 mb-2">
+                            <label for="exampleInputMessage">Message</label>
+                            <input type="text" class="form-control" name="user_message" placeholder="Message" required>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn mt-3 bg-primary text-light mb-5">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <!------------------maps---------->
+
+
+            <div class="col-sm-12 col-md-4">
+                <h2 id="location" class="text-center">Location</h2>
+                <hr class="mx-auto">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60369.80114719501!2d72.8486788!3d18.9706352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce6b40000001%3A0x105146c062813c9c!2sK%20C%20College!5e0!3m2!1sen!2sin!4v1576141294158!5m2!1sen!2sin" width="450" height="490" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            </section>
+        </div>
+
+    </div>
+</center>
+
+<!------------------footer---------->
+<footer class="text-center bg-info text-light my-10">
+
+<div>
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-twitter"></i>
+</div>
+<strong>
+Copyright &copy; 2019 WD College of Engineering. <a href="#"><u> Terms of Use</u></a>|<a href="#"><u>Privacy Policy</u></a>
+</strong>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+
+.logo{
+	height: 70px;
+	width: 100px;
+}
+
+.container{
+	margin-top:50px;
+	margin-bottom;50px;
+}
+
+#about p::first-letter{
+	font-size:50px;
+}
+
+.form{
+	border-style:;
+	margin-bottom:60px;
+}
+#navbarSupportedContent .nav-item{
+	border-style:ridge;
+	box-sizing: border-box;
+}
+.icon{
+	margin-top:50px;
+}
+
+.zoom{
+	transition:2sec ease-out;
+	
+}
+.zoom>img:hover{
+	transform:scale(1.1);
+}
